@@ -10,7 +10,8 @@ class YouTubeCommentsTool(BaseTool):
     def _run(self, video_id: str) -> list:
         comments = []
         page_token = ""
-        base_url = "https://www.googleapis.com/youtube/v3/commentThreads"
+        #base_url = "https://www.googleapis.com/youtube/v3/commentThreads"
+        base_url = "https://www.youtube.com/watch?v=SFXlvPo-CEs&t=556s"
         headers = {"Accept": "application/json"}
 
         try:
